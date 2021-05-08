@@ -67,3 +67,5 @@ If it doesn't work, the instructions for setting up OAuth can be found here: [Ne
 
 I hope you enjoy the resume template, if you do please follow me on [twitter](https://twitter.com/barancezayirli) and send me your results.
 I would love to see it!
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4650a289-c962-433e-ae8f-98abbaa49571/deploy-status)](https://app.netlify.com/sites/kristinaponting/deploys)
