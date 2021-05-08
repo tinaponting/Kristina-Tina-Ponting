@@ -1,0 +1,82 @@
+backend:
+  name: github
+  repo: barancezayirli/gatsby-starter-resume-cms #TODO replace this with your own repo
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: content
+    label: Content
+    files:
+      - label: Resume
+        name: resume
+        file: "data/profile.json"
+        fields:
+          - { label: "Full Name", name: fullname, widget: string }
+          - { label: Role, name: role, widget: string }
+          - { label: Summary, name: summary, widget: text }
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Phone, name: phone, widget: string, required: false }
+              - { label: Email, name: email, widget: string, required: false }
+              - { label: Website, name: website, widget: string, required: false }
+              - { label: location, name: location, widget: string, required: false }
+          - label: "Social Media"
+            name: social
+            widget: list
+            required: false
+            fields:
+              - { label: Service, name: service, widget: select, options: [linkedin, twitter, facebook, youtube, instagram, behance, github, dribbble, angellist]}
+              - { label: URL, name: url, widget: string }
+          - label: Experience
+            name: experience
+            widget: list
+            required: false
+            fields:
+              - { label: Role, name: role, widget: string }
+              - { label: Company, name: company, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: "Start date", name: start, widget: date, format: 'MM/YYYY' }
+              - { label: "End date", name: end, widget: date, required: false, format: 'MM/YYYY' }
+          - label: Projects
+            name: projects
+            widget: list
+            required: false
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Company, name: company, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Link, name: link, widget: string }
+          - label: Skills
+            name: skills
+            widget: list
+            required: false
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Type, name: type, widget: select, options: [percent, tag, list] }
+              - label: Subskills
+                name: subskills
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Percent, name: percent, widget: number, required: false }
+          - label: Education
+            name: education
+            widget: list
+            required: false
+            fields:
+              - { label: Institution, name: institution, widget: string }
+              - { label: Degree, name: degree, widget: string }
+              - { label: "Start date", name: start, widget: date, format: 'YYYY' }
+              - { label: "End date", name: end, widget: date, required: false, format: 'YYYY' }
+          - label: "Sidebar lists"
+            name: sidebar
+            widget: list
+            required: false
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Items, name: items, widget: list, field: { label: item, name: item, widget: string } }
+
