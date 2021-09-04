@@ -6,22 +6,19 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Baran Cezayirli | Technologist`,
+    title: `Kristina Ponting | Blogger`,
     author: `Baran Cezayirli`,
-    description: `With 10+ years of experience in various industries, I help tech
-              startups from idea phase to high volumes. I design and build
-              scalable solutions, implement internal processes that fit your
-              organization, build teams that produce results.`,
+    description: `Ordkonstnär i hjärtat av Blekinge, skriver om livet som gym tant och om vad som strålar in huvudet för tillfället..`,
     siteUrl: `https://barancezayirli.com/`,
     social: {
-      twitter: `barancezayirli`,
+      twitter: `KristinaPonting`,
     },
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Baran Cezayirli | Technologist`,
+        name: `Kristina Ponting | Blogger`,
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,
