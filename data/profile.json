@@ -21,36 +21,36 @@
           "percent": 95
         },
         {
-          "name": "Project Management",
+          "name": "PHP",
           "percent": 92
         },
         {
-          "name": "Game Development",
+          "name": "Wordpress Developer",
           "percent": 70
         },
         {
-          "name": "Blockchain",
-          "percent": 85
+          "name": "Wordpress Security",
+          "percent": 99
         },
         {
-          "name": "Dev Ops",
-          "percent": 81
+          "name": "Race walking",
+          "percent": 100
         },
         {
-          "name": "Backend Development",
+          "name": "Veteran Athlics",
           "percent": 93
         },
         {
-          "name": "Data Science",
-          "percent": 65
+          "name": "Hate A!",
+          "percent": 100
         },
         {
-          "name": "Artificial Intelligence",
-          "percent": 70
+          "name": "KISS + Ac/DC lover",
+          "percent": 100
         },
         {
-          "name": "UX",
-          "percent": 80
+          "name": "Drives Renault",
+          "percent": 99
         }
       ]
     },
@@ -75,16 +75,8 @@
           "percent": 74
         },
         {
-          "name": "Solidity",
-          "percent": 85
-        },
-        {
-          "name": "Dart",
-          "percent": 75
-        },
-        {
-          "name": "Go",
-          "percent": 60
+          "name": "Java",
+          "percent": 72
         }
       ]
     },
@@ -180,36 +172,35 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "Postgresql"
+          "name": "Sql"
         },
         {
-          "name": "Mongodb"
+          "name": "Mariadb"
         },
         {
-          "name": "Parse"
+          "name": "Mysql"
         },
         {
-          "name": "Firebase"
+          "name": "Mysql security"
         },
         {
-          "name": "Elastic Search"
+          "name": "Hate scrapers"
         }
       ]
     }
   ],
-  "summary": "Highly focused technologist with a multidisciplinary skill set honed over 15+ years in the IT industry. I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. With 15+ years of experience in various industries, I help tech startups from idea phase to high volumes. I design and build scalable solutions, implement internal processes that fit your organization, build teams that produce results.",
-  "education": [
+  "summary": "Highly focused writer with a multidisciplinary skill set honed over 40+ years in the Blogging industry. I strive to build great blogging (posts) and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. 
     {
-      "institution": "Middle East Technical University, Turkey",
+      "institution": "HållandsFHS, Sweden",
       "degree": "Geological Engineering",
       "start": "2013",
       "end": "2006"
     },
     {
-      "institution": "Gazi University, Turkey",
-      "degree": "Industrial Engineering",
-      "start": "2002",
-      "end": "2006"
+      "institution": "Utah University, Utah",
+      "degree": "Fysicsg",
+      "start": "1981",
+      "end": "1981"
     }
   ],
   "experience": [
